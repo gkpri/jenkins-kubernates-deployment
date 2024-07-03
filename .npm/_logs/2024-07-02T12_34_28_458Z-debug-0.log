@@ -1,0 +1,62 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@9.2.0
+2 info using node@v18.19.1
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/usr/share/nodejs/npm/npmrc Completed in 6ms
+6 timing config:load:builtin Completed in 7ms
+7 timing config:load:cli Completed in 4ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 2ms
+10 timing config:load:file:/root/.npmrc Completed in 0ms
+11 timing config:load:user Completed in 1ms
+12 timing config:load:file:/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 0ms
+14 timing config:load:setEnvs Completed in 2ms
+15 timing config:load Completed in 20ms
+16 timing npm:load:configload Completed in 20ms
+17 timing npm:load:mkdirpcache Completed in 0ms
+18 timing npm:load:mkdirplogs Completed in 1ms
+19 verbose title npm install
+20 verbose argv "install" "--package-lock-only"
+21 timing npm:load:setTitle Completed in 2ms
+22 timing config:load:flatten Completed in 6ms
+23 timing npm:load:display Completed in 7ms
+24 verbose logfile logs-max:10 dir:/root/.npm/_logs/2024-07-02T12_34_28_458Z-
+25 verbose logfile /root/.npm/_logs/2024-07-02T12_34_28_458Z-debug-0.log
+26 timing npm:load:logFile Completed in 12ms
+27 timing npm:load:timers Completed in 0ms
+28 timing npm:load:configScope Completed in 0ms
+29 timing npm:load Completed in 43ms
+30 timing config:load:flatten Completed in 0ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile start cleaning logs, removing 1 files
+33 silly logfile done cleaning log files
+34 timing idealTree:init Completed in 26ms
+35 timing idealTree:userRequests Completed in 0ms
+36 silly idealTree buildDeps
+37 timing idealTree:#root Completed in 0ms
+38 timing idealTree:buildDeps Completed in 3ms
+39 timing idealTree:fixDepFlags Completed in 0ms
+40 timing idealTree Completed in 31ms
+41 timing reify:loadTrees Completed in 32ms
+42 timing reify:save Completed in 2ms
+43 timing reify Completed in 39ms
+44 timing command:install Completed in 47ms
+45 verbose stack Error: ENOENT: no such file or directory, open '/root/package.json'
+46 verbose cwd /root
+47 verbose Linux 6.8.0-1008-aws
+48 verbose node v18.19.1
+49 verbose npm  v9.2.0
+50 error code ENOENT
+51 error syscall open
+52 error path /root/package.json
+53 error errno -2
+54 error enoent ENOENT: no such file or directory, open '/root/package.json'
+55 error enoent This is related to npm not being able to find a file.
+55 error enoent
+56 verbose exit -2
+57 timing npm Completed in 134ms
+58 verbose code -2
+59 error A complete log of this run can be found in:
+59 error     /root/.npm/_logs/2024-07-02T12_34_28_458Z-debug-0.log
